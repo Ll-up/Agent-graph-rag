@@ -1,4 +1,4 @@
-# AI菜谱知识图谱生成器
+# 基于 Query Routing 的智能饮食问答系统 
 
 ## 基于Kimi大模型的智能菜谱解析系统
 
@@ -435,20 +435,3 @@ def export_to_custom_format(self, output_dir):
 - **关系验证**: 确保图谱关系的逻辑一致性
 - **重复检测**: 自动识别和处理重复数据
 
----
-
-**享受AI驱动的菜谱知识图谱构建体验！** 🎉 
-
-现在你可以安全地进行批量处理了！使用以下命令处理整个HowToCook项目：
-
-```bash
-python run_ai_agent.py HowToCook-master
-```
-
-系统会：
-
-1. 🎯 专门扫描 `HowToCook-master/dishes/` 目录
-2. 📁 根据子目录自动识别分类 (vegetable_dish→素菜, meat_dish→荤菜等)
-3. 🚫 自动排除template、.github等非菜谱目录
-4. 🤖 用AI智能解析每个菜谱的详细信息
-5. 📊 生成完整的知识图谱数据
